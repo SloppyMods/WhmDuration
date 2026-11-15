@@ -1,0 +1,19 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <AssemblyName>WhmDuration</AssemblyName>
+    <RootNamespace>WhmDuration.Plugin</RootNamespace>
+    <Version>0.1.0.0</Version>
+    <Author>SloppyMods</Author>
+    <Name>Action Duration</Name>
+    <Punchline>DoT, HoT, and ground-effect duration cooldowns on your hotbars.</Punchline>
+    <Description>Display-only cooldowns for DoTs, HoTs, and ground-area effects across all PvE jobs, plus full-duration potency in English action tooltips. Does not change casting.</Description>
+    <DalamudApiLevel>15</DalamudApiLevel>
+    <Tags>duration, hotbar, dot, hot, cooldown, tooltip, aslyum</Tags>
+    <CategoryTags>UI</CategoryTags>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../WhmDuration.Core/WhmDuration.Core.csproj" />
+  </ItemGroup>
+</Project>
